@@ -1,0 +1,5 @@
+.footer{
+    background-image: linear-gradient(to top, rgba(199, 21, 133), pink);
+    display: flex;
+    flex-direction: column;
+}

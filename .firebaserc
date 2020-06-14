@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "ariana-df737"
+  },
+  "targets": {
+    "ariana-df737": {
+      "hosting": {
+        "Ariana": [
+          "ariana-df737"
+        ]
+      }
+    }
+  }
+}
