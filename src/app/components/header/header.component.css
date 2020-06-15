@@ -31,3 +31,7 @@ header{
 #h1{
     filter: invert(100%);    
 }   
+
+h3{
+    margin: 0;
+}
