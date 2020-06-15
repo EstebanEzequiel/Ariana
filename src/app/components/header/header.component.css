@@ -2,7 +2,7 @@ header{
     height: 75vh;
     width: 100%;
     background: url(../../../assets/spring.jpg);
-    background-color: rgb(255, 192, 203, 0.6);
+    background-color: rgb(255, 192, 203, 0.9);
     background-blend-mode: soft-light;
     padding: 1px;
     background-size: cover;
@@ -21,10 +21,10 @@ header{
 }
 
 .marco{
-    border: 30px solid transparent;
+    border: 35px solid transparent;
     padding-top: 0px;
     padding: 1px;
-    border-image: url(../../../assets/marco.png) 220 stretch;
+    border-image: url(../../../assets/decoracion.png) 160 stretch;
     filter: invert(100%);    
 }
 
