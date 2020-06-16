@@ -11,6 +11,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { WindowComponent } from './view/window/window.component';
 import { CarouselComponent } from './view/carousel/carousel.component';
 import { HomeComponent } from './components/home/home.component';
+import { PoemComponent } from './view/poem/poem.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { HomeComponent } from './components/home/home.component';
     WindowComponent,
     CarouselComponent,
     HomeComponent,
+    PoemComponent,
   ],
   imports: [
     BrowserModule,

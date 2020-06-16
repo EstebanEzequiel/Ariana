@@ -1,14 +1,6 @@
 {
   "projects": {
-    "default": "ariana-df737"
-  },
-  "targets": {
-    "ariana-df737": {
-      "hosting": {
-        "Ariana": [
-          "ariana-df737"
-        ]
-      }
-    }
+    "default": "letter-to-ari",
+    "ariana": "letter-to-ari"
   }
 }
