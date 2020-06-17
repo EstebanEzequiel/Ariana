@@ -1,12 +1,11 @@
 .marco{
-    margin: auto;
-    padding: 15px;
+    margin: 0;
+    padding: 20px;
     margin: 4px;
     padding-bottom: 0px;
     background-color:rgb(236, 240, 241);
-    transform: rotate(-3deg);
-    box-shadow: 4px -12px 7px darkslategray;
-    border-radius: 4px;
+    transform: rotate(-4deg);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.57);
 }
 
 .pie_marco{
