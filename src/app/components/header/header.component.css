@@ -14,13 +14,12 @@
 }
 
 .marco{
-    border: 50px solid transparent;
-    padding: 30px;
-    border-image: url(../../../assets/decoracion.png) 145 stretch;
-    filter: invert(100%);    
+    border: 60px solid transparent;
+    padding: 15px;
+    border-image: url(../../../assets/decoracion.png) 185 stretch;
 }
 
 h1{
-    filter: invert(100%);  
-    font-size: 13vw;
+    filter: invert(55%);  
+    font-size: 12vw;
 }
