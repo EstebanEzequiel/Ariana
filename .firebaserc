@@ -2,6 +2,7 @@
   "projects": {
     "default": "letter-to-ari",
     "ariana": "letter-to-ari",
-    "carta-ariana": "letter-ariana"
+    "carta-ariana": "letter-ariana",
+    "ari": "poem-ariana"
   }
 }
