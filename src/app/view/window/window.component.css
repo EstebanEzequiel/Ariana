@@ -1,15 +1,19 @@
 .marco{
     margin: 0;
-    padding: 20px;
+    padding: 3px;
+    padding-bottom: 16px !important;
     margin: 4px;
     padding-bottom: 0px;
-    background-color:rgb(236, 240, 241);
+    background-color:pink;
     transform: rotate(-4deg);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.57);
+    border-radius: 0.25rem;
 }
 
 .pie_marco{
     text-align: start;
+    margin-top: 16px;
+    margin-left: 12px;
 }
 
 #importa{
