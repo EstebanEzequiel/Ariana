@@ -5,8 +5,8 @@ import { HomeComponent } from './components/home/home.component';
 
 const routes: Routes = 
 [
-  { path:'home', component: HomeComponent },
-  { path:'', component: HomeComponent },
+  // { path:'home', component: HomeComponent },
+  { path:'', component: GalleryComponent },
   { path:'galeria', component: GalleryComponent }
 ];
 

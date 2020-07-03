@@ -6,9 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./window.component.css']
 })
 export class WindowComponent implements OnInit {
-
-  constructor() { }
-
+  
+  
+  constructor(){}
+  
   ngOnInit(): void {
   }
 

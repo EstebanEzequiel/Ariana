@@ -12,6 +12,9 @@ import { WindowComponent } from './view/window/window.component';
 import { CarouselComponent } from './view/carousel/carousel.component';
 import { HomeComponent } from './components/home/home.component';
 import { PoemComponent } from './view/poem/poem.component';
+import { Foto1Component } from './view/foto1/foto1.component';
+import { Foto2Component } from './view/foto2/foto2.component';
+import { Foto3Component } from './view/foto3/foto3.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +28,9 @@ import { PoemComponent } from './view/poem/poem.component';
     CarouselComponent,
     HomeComponent,
     PoemComponent,
+    Foto1Component,
+    Foto2Component,
+    Foto3Component,
   ],
   imports: [
     BrowserModule,

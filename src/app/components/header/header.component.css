@@ -1,25 +1,27 @@
 .head{
-    height: 91vh;
+    height: 100vh;
     width: 100%;
     background: url(../../../assets/spring.jpg);
-    background-color: rgb(255, 192, 203, 0.9);
-    background-blend-mode: soft-light;
+    background-color: pink;
+    filter: grayscale(80%); /*convierte en blanco y negro*/
+    background-blend-mode: soft-light; /*invierte orden de fondo y contenido*/
     padding: 1px;
     background-size: cover;
     background-position: center;
     display: flex;
-    flex-direction: column;
+    flex-direction: column;/*propiedad que ubica en columna a flex*/
     align-items: center;
     justify-content: center;
 }
 
 .marco{
-    border: 60px solid transparent;
+    border: 35px solid transparent;
     padding: 15px;
     border-image: url(../../../assets/decoracion.png) 185 stretch;
+    filter: invert(100%);  /*colores negativos*/
 }
 
 h1{
-    filter: invert(55%);  
-    font-size: 12vw;
+    filter: invert(100%);  /*colores negativos*/
+    font-size: 14vw;
 }

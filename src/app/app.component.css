@@ -1,3 +1,5 @@
 .cuerpo{
-    background-image: linear-gradient(to top, pink, rgba(255, 192, 203, 0.5));
+    /* background-image: linear-gradient(to top, pink, rgba(255, 192, 203, 0.5)); */
+    background: url(../assets/muro.jpg);
 }
+
