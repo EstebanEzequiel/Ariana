@@ -1,3 +1,8 @@
+.container{
+    padding: 0;
+    margin: 0;
+}
+
 .carta{
     display: flex;
     flex-direction: column;
@@ -5,9 +10,9 @@
     justify-content: center;
 }
 .poema{
-    text-indent: 1em;
-    text-align: justify;
-    padding: 15px;
+    background-color: rgba(245, 245, 245, 0.6);
+    /* text-align: justify; */
+    padding: 10px;
     font-size: 20px;
     
 }

@@ -2,14 +2,14 @@
     padding: 16px 8px 16px;
     background-color:whitesmoke;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6), 0 12px 40px 0 rgba(0, 0, 0, 0.57);
-    max-width: 80%;
-    margin: auto;
+    max-width: 95%;
+    /* margin: auto; */
 }
 
-.pie_marco{
+/* .pie_marco{
     text-align: start;
     padding-top: 16px;
-}
+} */
 
 h6{
     margin: 0;
@@ -18,7 +18,7 @@ h6{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-#importa{
+/* #importa{
     width: auto;
     height: 1.5rem;
 }
@@ -31,7 +31,7 @@ h6{
 #comentario{
     width: auto;
     height: 1.3rem;
-}
+} */
 
 .animado{
     opacity: 0;
