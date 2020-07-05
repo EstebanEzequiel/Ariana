@@ -2,8 +2,8 @@
     height: 100vh;
     width: 100%;
     background: url(../../../assets/spring.jpg);
-    background-color: rgba(255, 192, 203, 0.705);
-    background-blend-mode: soft-light; /*invierte orden de fondo y contenido*/
+    background-color: rgba(255, 192, 203, 0.9);
+    background-blend-mode: soft-light; /*invierte orden de foto y filtro de color*/
     padding: 1px;
     background-size: cover;
     background-position: center;
@@ -17,11 +17,20 @@
     border: 30px solid transparent;
     padding: 15px;
     border-image: url(../../../assets/decoracion.png) 185 stretch;
-    /* filter: invert(100%);  colores negativos */
     filter: grayscale(100%); /*convierte en blanco y negro*/
 }
 
-h1{
+h2{
     /* filter: invert(0%);  colores negativos */
     font-size: 13vw;
 }
+
+@media screen and (min-width: 575px) {
+    .marco{
+        border: 55px solid transparent;
+        border-image: url(../../../assets/decoracion.png) 190 stretch;
+    }
+    h2{
+        font-size: 8vw;
+    }
+  }

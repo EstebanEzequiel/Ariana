@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+declare const myTest: any;
 
 @Component({
   selector: 'gallery',
@@ -7,8 +8,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GalleryComponent implements OnInit {
 
-  constructor() { }
+  constructor(){}
 
-  ngOnInit(): void {
+  ngOnInit(): void{
+    myTest();
   }
 }

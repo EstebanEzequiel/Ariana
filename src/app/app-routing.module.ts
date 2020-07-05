@@ -5,7 +5,6 @@ import { GalleryComponent } from './view/gallery/gallery.component';
 const routes: Routes = 
 [
   { path:'', component: GalleryComponent },
-  { path:'galeria', component: GalleryComponent }
 ];
 
 @NgModule({

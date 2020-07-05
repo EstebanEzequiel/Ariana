@@ -1,20 +1,17 @@
 .container{
-    padding: 0;
-    margin: 0;
+    position: relative;
 }
 
 .carta{
     display: flex;
-    flex-direction: column;
+    flex-flow: column wrap;
     align-items: center;
-    justify-content: center;
 }
+
 .poema{
-    background-color: rgba(245, 245, 245, 0.6);
-    /* text-align: justify; */
+    background-color: rgba(245, 245, 245, 0.7);
     padding: 10px;
     font-size: 20px;
-    
 }
 
 #corazon1{
@@ -22,7 +19,7 @@
     max-width: 12%;
     height: auto;
     top: 15%;    
-    right: 85%;
+    right: 90%;
     transform: rotate(-20deg);
     opacity: 0.4;
 }
@@ -41,8 +38,8 @@
     position: absolute;
     max-width: 7%;
     height: auto;
-    top: 75%;  
-    right: 5%;
+    top: 100%;  
+    right: 70%;
     transform: rotate(-8deg);
     opacity: 0.4;
 }
@@ -51,7 +48,7 @@
     position: absolute;
     max-width: 10%;
     height: auto;
-    top: 60%;    
+    top: 50%;    
     right: 5%;
     transform: rotate(-15deg);
     opacity: 0.4;
@@ -62,7 +59,7 @@
     max-width: 6%;
     height: auto;
     top: 5%;  
-    right: 7%;
+    right:15%;
     transform: rotate(20deg);
     opacity: 0.4;
 }
@@ -71,8 +68,68 @@
     position: absolute;
     max-width: 16%;
     height: auto;
-    top: 45%;  
-    right: 50%;
+    top: 40%;  
+    right: 90%;
+    transform: rotate(20deg);
+    opacity: 0.4
+}
+
+#corazon7{
+    position: absolute;
+    max-width: 12%;
+    height: auto;
+    top: 25%;    
+    right: 5%;
+    transform: rotate(-20deg);
+    opacity: 0.4;
+}
+
+#corazon8{
+    position: absolute;
+    max-width: 10%;
+    height: auto;
+    top: 55%;    
+    right: 90%;
+    transform: rotate(20deg);
+    opacity: 0.4;
+}
+
+#corazon9{
+    position: absolute;
+    max-width: 7%;
+    height: auto;
+    top: 10%;  
+    right: 0%;
+    transform: rotate(-8deg);
+    opacity: 0.4;
+}
+
+#corazon10{
+    position: absolute;
+    max-width: 10%;
+    height: auto;
+    top: 75%;    
+    right: 0%;
+    transform: rotate(-15deg);
+    opacity: 0.4;
+}
+
+#corazon11{
+    position: absolute;
+    max-width: 6%;
+    height: auto;
+    top: 95%;  
+    right: 7%;
+    transform: rotate(20deg);
+    opacity: 0.4;
+}
+
+#corazon12{
+    position: absolute;
+    max-width: 16%;
+    height: auto;
+    top: 65%;  
+    right: 5%;
     transform: rotate(20deg);
     opacity: 0.4
 }

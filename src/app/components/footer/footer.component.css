@@ -1,6 +1,4 @@
 .footer{
     background: url(../../../assets/muro.jpg);
     /* background-image: linear-gradient(to top, grey, white); */
-    display: flex;
-    flex-direction: column;
 }
