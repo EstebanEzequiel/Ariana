@@ -4,7 +4,6 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
-import { MainComponent } from './components/main/main.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { GalleryComponent } from './view/gallery/gallery.component';
 import { PoemComponent } from './view/poem/poem.component';
@@ -16,7 +15,6 @@ import { Foto3Component } from './view/foto3/foto3.component';
   declarations: [
     AppComponent,
     HeaderComponent,
-    MainComponent,
     FooterComponent,
     GalleryComponent,
     PoemComponent,
