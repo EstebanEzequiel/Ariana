@@ -25,12 +25,19 @@ h2{
     font-size: 13vw;
 }
 
-@media screen and (min-width: 575px) {
+@media screen and (min-width: 768px) {
     .marco{
-        border: 55px solid transparent;
+        border: 50px solid transparent;
         border-image: url(../../../assets/decoracion.png) 190 stretch;
     }
     h2{
         font-size: 8vw;
     }
-  }
+}
+
+@media screen and (min-width: 1024px) {
+    .marco{
+        border: 70px solid transparent;
+        border-image: url(../../../assets/decoracion.png) 185 stretch;
+    }
+}
