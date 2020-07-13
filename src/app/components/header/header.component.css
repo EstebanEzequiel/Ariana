@@ -2,7 +2,7 @@
     height: 100vh;
     width: 100%;
     background: url(../../../assets/spring.jpg);
-    background-color: rgba(255, 192, 203, 0.9);
+    background-color: plum;
     background-blend-mode: soft-light; /*invierte orden de foto y filtro de color*/
     padding: 1px;
     background-size: cover;
@@ -25,7 +25,6 @@
     /* border-image: url(../../../assets/decoracion.png) 185 stretch; */
     /* filter: grayscale(100%); convierte en blanco y negro */
     animation: mianimacion 0.8s ease-in-out 1.5s infinite normal none;
-    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
 }
 
 h2{
@@ -38,9 +37,8 @@ h2{
         padding: 70px;
         padding-top: 80px;
         padding-bottom: 80px;
-        /* border: 50px solid transparent; */
-        /* border-image: url(../../../assets/decoracion.png) 190 stretch; */
     }
+    
     h2{
         font-size: 10vw;
     }
@@ -50,12 +48,17 @@ h2{
     .marco{
         padding: 70px;
         padding-top: 95px;
-        padding-bottom: 95px;
-        /* border: 70px solid transparent; */
-        /* border-image: url(../../../assets/decoracion.png) 185 stretch; */
+        padding-bottom: 95px;        
     }
+
     h2{
         font-size: 9.5vw;
+    }
+}
+
+@media screen and (max-width: 320px){
+    h2{
+        font-size: 17vw;
     }
 }
 
@@ -64,7 +67,7 @@ h2{
         transform: scale(1);
     }
     50%{
-        transform: scale(1.25);
+        transform: scale(1.2);
     }
     100%{
         transform: scale(1);

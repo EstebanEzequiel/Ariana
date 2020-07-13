@@ -2,22 +2,26 @@
     position: relative;
 }
 
-.carta{
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-}
-
 .poema{
-    background-color: rgba(245, 245, 245, 0.6);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 pre{
-    font-family: 'Pangolin', cursive;
-    font-size: 20px;
-    font-weight: normal;
-    color: gray;
-    margin: 0;
+    background-color: rgba(245, 245, 245, 0.8);
+    margin: 0; padding: 0;
+    color: #303030;
+    font: normal 23.5px 'Grenze Gotisch', cursive;
+}
+
+h1{
+    font: bold 40px 'Grenze Gotisch', cursive;
+}
+
+#parte2{
+    padding-top: 0;
 }
 
 #corazon1{
@@ -27,7 +31,7 @@ pre{
     top: 15%;    
     right: 90%;
     transform: rotate(-20deg);
-    opacity: 0.4;
+    opacity: 0.3
 }
 
 #corazon2{
@@ -37,7 +41,7 @@ pre{
     top: 85%;    
     right: 88%;
     transform: rotate(20deg);
-    opacity: 0.4;
+    opacity: 0.3
 }
 
 #corazon3{
@@ -47,7 +51,7 @@ pre{
     top: 100%;  
     right: 70%;
     transform: rotate(-8deg);
-    opacity: 0.4;
+    opacity: 0.3
 }
 
 #corazon4{
@@ -57,7 +61,7 @@ pre{
     top: 50%;    
     right: 5%;
     transform: rotate(-15deg);
-    opacity: 0.4;
+    opacity: 0.3
 }
 
 #corazon5{
@@ -67,7 +71,7 @@ pre{
     top: 5%;  
     right:15%;
     transform: rotate(20deg);
-    opacity: 0.4;
+    opacity: 0.3
 }
 
 #corazon6{
@@ -77,7 +81,7 @@ pre{
     top: 40%;  
     right: 90%;
     transform: rotate(20deg);
-    opacity: 0.4
+    opacity:0.3
 }
 
 #corazon7{
@@ -87,7 +91,7 @@ pre{
     top: 25%;    
     right: 5%;
     transform: rotate(-20deg);
-    opacity: 0.4;
+    opacity: 0.3
 }
 
 #corazon8{
@@ -97,7 +101,7 @@ pre{
     top: 55%;    
     right: 90%;
     transform: rotate(20deg);
-    opacity: 0.4;
+    opacity: 0.3
 }
 
 #corazon9{
@@ -107,7 +111,7 @@ pre{
     top: 10%;  
     right: 0%;
     transform: rotate(-8deg);
-    opacity: 0.4;
+    opacity: 0.3
 }
 
 #corazon10{
@@ -117,7 +121,7 @@ pre{
     top: 75%;    
     right: 0%;
     transform: rotate(-15deg);
-    opacity: 0.4;
+    opacity: 0.3
 }
 
 #corazon11{
@@ -127,7 +131,7 @@ pre{
     top: 95%;  
     right: 7%;
     transform: rotate(20deg);
-    opacity: 0.4;
+    opacity: 0.3
 }
 
 #corazon12{
@@ -137,7 +141,7 @@ pre{
     top: 65%;  
     right: 5%;
     transform: rotate(20deg);
-    opacity: 0.4
+    opacity:0.3
 }
 
 @media screen and (min-width: 768px){
@@ -157,5 +161,11 @@ pre{
 @media screen and (max-width: 320px){
     h1{
         font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px){
+    #parte2{
+        padding-top: 2rem;
     }
 }
