@@ -15,25 +15,27 @@
 
 .marco{
     /* border: 30px solid transparent; */
-    padding: 45px;
-    background-image: url(../../../assets/late1.png);
+    padding: 47px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-image: url(../../../assets/late.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     /* border-image: url(../../../assets/decoracion.png) 185 stretch; */
     /* filter: grayscale(100%); convierte en blanco y negro */
-    animation: mianimacion 1s ease-in-out 1.5s infinite normal none;
+    animation: mianimacion 0.8s ease-in-out 1.5s infinite normal none;
     /* animation: name duration timing-function delay iteration-count direction fill-mode; */
 }
 
 h2{
     /* filter: invert(0%);  colores negativos */
-    font-size: 13vw;
+    font-size: 11.8vw;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px){
     .marco{
-        padding: 60px;
+        padding: 70px;
         padding-top: 80px;
         padding-bottom: 80px;
         /* border: 50px solid transparent; */
@@ -53,7 +55,7 @@ h2{
         /* border-image: url(../../../assets/decoracion.png) 185 stretch; */
     }
     h2{
-        font-size: 8vw;
+        font-size: 9.5vw;
     }
 }
 
@@ -62,7 +64,7 @@ h2{
         transform: scale(1);
     }
     50%{
-        transform: scale(1.2);
+        transform: scale(1.25);
     }
     100%{
         transform: scale(1);
