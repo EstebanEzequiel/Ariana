@@ -18,6 +18,7 @@
     padding: 15px;
     border-image: url(../../../assets/decoracion.png) 185 stretch;
     filter: grayscale(100%); /*convierte en blanco y negro*/
+    animation: mianimacion 2s ease-in-out 0s infinite normal none;
 }
 
 h2{
@@ -39,5 +40,26 @@ h2{
     .marco{
         border: 70px solid transparent;
         border-image: url(../../../assets/decoracion.png) 185 stretch;
+    }
+}
+
+@keyframes mianimacion {
+    20% {
+    /* background: #FFFFFF; */
+    }
+    35% {
+    transform: scale(0.5);
+    /* background: #FFFF00; */
+    }
+    50% {
+    transform: scale(1.0);
+    /* background: #FF0000; */
+    }
+    65% {
+    transform: scale(0.5);
+    /* background: #FFFF00; */
+    }
+    80% {
+    /* background: #FFFFFF; */
     }
 }
