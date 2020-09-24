@@ -1,8 +1,8 @@
 .head{
     height: 90vh;
     width: 100%;
-    background: url(../../../assets/spring.jpg);
-    background-color: plum;
+    background: url(https://www.tuexpertoapps.com/wp-content/uploads/2019/02/san-valentin-apps-01.jpg.webp);
+    background-color: lightslategray;
     background-blend-mode: soft-light; /*invierte orden de foto y filtro de color*/
     padding: 1px;
     background-size: cover;
@@ -18,7 +18,7 @@
     padding: 47px;
     padding-left: 50px;
     padding-right: 50px;
-    background-image: url(../../../assets/late.png);
+    background-image: url(../../../assets/late2.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
