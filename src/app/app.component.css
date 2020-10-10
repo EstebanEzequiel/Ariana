@@ -1,5 +1,10 @@
 .container-fluid{
-    background-color: rgba(255, 192, 203, 0.4);
+    background-image: url(https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2017/09/14145420/Flores-SF-6.jpg);
+    background-color: plum;
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
 }
 
 h5{

@@ -1,7 +1,7 @@
 .head{
     background: url(./../../../assets/spring.jpg);
     height: 110vh;
-    background-color: rgba(255, 192, 203, 0.7);
+    background-color: rgb(196, 97, 196);
     background-blend-mode: soft-light; /*invierte orden de foto y filtro de color*/
     background-size: cover;
     background-position: center;
