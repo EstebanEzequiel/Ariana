@@ -1,6 +1,7 @@
 .container{
     position: relative;
-}
+    padding: 0;
+} 
 
 .poema{
     display: flex;
@@ -10,7 +11,7 @@
 }
 
 pre{
-    background-color: rgba(245, 245, 245, 0.8);
+    /* background-color: rgba(245, 245, 245, 0.8); */
     margin: 0; padding: 0;
     color: #303030;
     font: normal 23.5px 'Grenze Gotisch', cursive;
@@ -26,7 +27,7 @@ h1{
 
 #corazon1{
     position: absolute;
-    max-width: 12%;
+    max-width: 40px;
     height: auto;
     top: 15%;    
     right: 90%;
@@ -36,7 +37,7 @@ h1{
 
 #corazon2{
     position: absolute;
-    max-width: 10%;
+    max-width: 40px;
     height: auto;
     top: 85%;    
     right: 88%;
@@ -46,7 +47,7 @@ h1{
 
 #corazon3{
     position: absolute;
-    max-width: 7%;
+    max-width: 40px;
     height: auto;
     top: 100%;  
     right: 70%;
@@ -56,7 +57,7 @@ h1{
 
 #corazon4{
     position: absolute;
-    max-width: 10%;
+    max-width: 40px;
     height: auto;
     top: 50%;    
     right: 5%;
@@ -66,7 +67,7 @@ h1{
 
 #corazon5{
     position: absolute;
-    max-width: 6%;
+    max-width: 40px;
     height: auto;
     top: 5%;  
     right:15%;
@@ -76,7 +77,7 @@ h1{
 
 #corazon6{
     position: absolute;
-    max-width: 16%;
+    max-width: 40px;
     height: auto;
     top: 40%;  
     right: 90%;
@@ -86,7 +87,7 @@ h1{
 
 #corazon7{
     position: absolute;
-    max-width: 12%;
+    max-width: 40px;
     height: auto;
     top: 25%;    
     right: 5%;
@@ -96,7 +97,7 @@ h1{
 
 #corazon8{
     position: absolute;
-    max-width: 10%;
+    max-width: 40px;
     height: auto;
     top: 55%;    
     right: 90%;
@@ -106,7 +107,7 @@ h1{
 
 #corazon9{
     position: absolute;
-    max-width: 7%;
+    max-width: 40px;
     height: auto;
     top: 10%;  
     right: 0%;
@@ -116,7 +117,7 @@ h1{
 
 #corazon10{
     position: absolute;
-    max-width: 10%;
+    max-width: 40px;
     height: auto;
     top: 75%;    
     right: 0%;
@@ -126,7 +127,7 @@ h1{
 
 #corazon11{
     position: absolute;
-    max-width: 6%;
+    max-width: 40px;
     height: auto;
     top: 95%;  
     right: 7%;
@@ -136,7 +137,7 @@ h1{
 
 #corazon12{
     position: absolute;
-    max-width: 16%;
+    max-width: 40px;
     height: auto;
     top: 65%;  
     right: 5%;

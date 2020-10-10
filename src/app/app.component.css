@@ -1,4 +1,8 @@
 .container-fluid{
-    background: url(../assets/muro.jpg);
+    background-color: rgba(255, 192, 203, 0.4);
 }
 
+h5{
+    margin: 0;
+    padding: 0;
+}

@@ -1,12 +1,9 @@
 .img-fluid1 {
-    max-width: 98%;
+    max-width: 100%;
     height: auto;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6), 0 12px 40px 0 rgba(0, 0, 0, 0.57);
-    border: 10px solid whitesmoke; /*card con el borde de foto*/
-}
-
-h1{
-    font: bold 40px 'Grenze Gotisch', cursive;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.404), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 5px solid whitesmoke;
+    transform: rotate(-5deg);    
 }
 
 .animado{
@@ -20,10 +17,10 @@ h1{
 
 @keyframes mostrarUp{
     0%{
-        transform: translateY(70px);
+        transform: translateX(-60px);
     }
     100%{
-        transform: translateY(0);
+        transform: translateX(0);
     }
 }
 
