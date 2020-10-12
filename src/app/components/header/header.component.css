@@ -1,10 +1,12 @@
 .head{
-    background: url(./../../../assets/spring.jpg);
-    height: 110vh;
-    background-color: rgb(196, 97, 196);
+    background: url(https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2017/09/14145420/Flores-SF-6.jpg);
+    height: 100vh;
+    background-color: rgb(196, 97, 196, 0.7);
     background-blend-mode: soft-light; /*invierte orden de foto y filtro de color*/
     background-size: cover;
-    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-position: center; */
     display: flex;
     padding: 1px;
 }
@@ -14,23 +16,50 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 40%;
-    height: 70%;
+    width: 28%;
+    height: 50%;
     margin: auto;
+    margin-bottom: 10rem;
     animation: mianimacion 0.8s ease-in-out 1.5s infinite normal none;
 }
 
 h2{
     text-align: center;
-    font: bold 40px 'Grenze Gotisch', cursive;
+    font: bold 8rem 'Grenze Gotisch', cursive;
     text-transform: capitalize;
     color: rgba(255, 192, 203, 0.829);
-    padding-top: 52px !important;
-    padding-left: 6px !important;
+    padding: 50px 0 50px 25px;
     margin: 0;
 }
 
-@media screen and (min-width: 375px) and (max-width: 532px){
+@media screen and (min-width: 1024px) and (max-width: 1260px){
+    .marco{
+        width: 40%;
+        height: 50%;
+    }
+    h2{
+        font-size: 8rem;
+        padding: 75px 0 75px 25px;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 532px){
+    .head{
+        height: 85vh;
+    }
+
+    .marco{
+        width: 70%;
+        height: 57%;
+    }
+
+    h2{
+        font-size: 5.5rem;
+        padding: 60px 0;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 424px){
     .head{
         height: 85vh;
     }
@@ -42,7 +71,7 @@ h2{
 
     h2{
         font-size: 3.5rem;
-        padding: 60px 0;
+        padding: 58px 0;
     }
 }
 
@@ -58,7 +87,7 @@ h2{
 
     h2{
         font-size: 4rem;
-        padding: 65px 0;
+        padding: 55px 0;
     }
 }
 

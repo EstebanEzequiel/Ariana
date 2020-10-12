@@ -1,13 +1,8 @@
 .container-fluid{
     background-image: url(https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2017/09/14145420/Flores-SF-6.jpg);
-    background-color: plum;
+    background-color: rgba(221, 160, 221, 0.5);
     background-blend-mode: soft-light;
     background-repeat: no-repeat;
     background-size: cover;
     /* background-position: center; */
-}
-
-h5{
-    margin: 0;
-    padding: 0;
 }
