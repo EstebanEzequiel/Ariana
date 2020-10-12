@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "Ariana",
+    "ariana": "sweet-poem",
+    "default": "sweet-poem"
   }
 }
