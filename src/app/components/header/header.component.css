@@ -1,12 +1,12 @@
 .head{
-    background: url(https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2017/09/14145420/Flores-SF-6.jpg);
     height: 100vh;
-    background-color: rgb(196, 97, 196, 0.7);
+    background: url(https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2017/09/14145420/Flores-SF-6.jpg);
+    background-color: rgb(196, 97, 196, 0.6);
     background-blend-mode: soft-light; /*invierte orden de foto y filtro de color*/
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    /* background-position: center; */
+    background-position: center;
     display: flex;
     padding: 1px;
 }
@@ -19,7 +19,7 @@
     width: 28%;
     height: 50%;
     margin: auto;
-    margin-bottom: 10rem;
+    /* margin-bottom: 10rem; */
     animation: mianimacion 0.8s ease-in-out 1.5s infinite normal none;
 }
 
@@ -45,49 +45,49 @@ h2{
 
 @media screen and (min-width: 425px) and (max-width: 532px){
     .head{
-        height: 85vh;
+        height: 100vh;
     }
 
     .marco{
-        width: 70%;
-        height: 57%;
+        width: 50%;
+        height: 35%;
     }
 
     h2{
-        font-size: 5.5rem;
-        padding: 60px 0;
+        font-size: 4rem;
+        padding: 40px 0;
     }
 }
 
 @media screen and (min-width: 375px) and (max-width: 424px){
     .head{
-        height: 85vh;
+        height: 100vh;
     }
 
     .marco{
-        width: 63%;
-        height: 45%;
+        width: 58%;
+        height: 35%;
     }
 
     h2{
         font-size: 3.5rem;
-        padding: 58px 0;
+        padding: 50px 0;
     }
 }
 
 @media screen and (min-width: 360px) and (max-width: 374px){
     .head{
-        height: 70vh;
+        height: 100vh;
     }
 
     .marco{
-        width: 70%;
-        height: 48%;
+        width: 65%;
+        height: 32%;
     }
 
     h2{
         font-size: 4rem;
-        padding: 55px 0;
+        padding: 50px 0;
     }
 }
 

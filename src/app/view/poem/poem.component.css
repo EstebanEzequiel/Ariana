@@ -53,7 +53,7 @@ cite{
     position: absolute;
     max-width: 40px;
     height: auto;
-    top: 100%;  
+    top: 95%;  
     right: 70%;
     transform: rotate(-8deg);
     opacity: 0.5
@@ -133,7 +133,7 @@ cite{
     position: absolute;
     max-width: 40px;
     height: auto;
-    top: 95%;  
+    top: 90%;  
     right: 7%;
     transform: rotate(20deg);
     opacity: 0.5
