@@ -1,7 +1,7 @@
 .head{
     height: 100vh;
     background: url(https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2017/09/14145420/Flores-SF-6.jpg);
-    background-color: rgb(196, 97, 196, 0.6);
+    background-color: rgba(221, 160, 221, 0.5);
     background-blend-mode: soft-light; /*invierte orden de foto y filtro de color*/
     background-size: cover;
     background-repeat: no-repeat;
@@ -19,7 +19,6 @@
     width: 28%;
     height: 50%;
     margin: auto;
-    /* margin-bottom: 10rem; */
     animation: mianimacion 0.8s ease-in-out 1.5s infinite normal none;
 }
 
