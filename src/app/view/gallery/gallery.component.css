@@ -7,8 +7,8 @@
 
 .etiqueta{
     text-transform: capitalize;
-    background: tomato;
-    color: tomato;
+    background: yellow;
+    color: yellow;
     padding: 0.2em 1.5em 0.2em 0.9em;
     margin-left: 10px;
     position: absolute;
@@ -20,12 +20,12 @@
 
 .etiqueta1{
     text-transform: capitalize;
-    background: tomato;
-    color: tomato;
+    background: yellow;
+    color: yellow;
     padding: 0.2em 1.5em 0.2em 0.9em;
     margin-left: 10px;
     position: absolute;
-    top: 1%;
+    top: 5%;
     right: 1%;
     z-index: 1;
     transform: rotate(25deg);

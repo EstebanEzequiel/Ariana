@@ -36,7 +36,7 @@ cite{
     top: 15%;    
     right: 90%;
     transform: rotate(-20deg);
-    opacity: 0.5
+    opacity: 0.3
 }
 
 #corazon2{
@@ -46,7 +46,7 @@ cite{
     top: 85%;    
     right: 88%;
     transform: rotate(20deg);
-    opacity: 0.5
+    opacity: 0.3
 }
 
 #corazon3{
@@ -56,7 +56,7 @@ cite{
     top: 95%;  
     right: 70%;
     transform: rotate(-8deg);
-    opacity: 0.5
+    opacity: 0.3
 }
 
 #corazon4{
@@ -66,7 +66,7 @@ cite{
     top: 50%;    
     right: 5%;
     transform: rotate(-15deg);
-    opacity: 0.5
+    opacity: 0.3
 }
 
 #corazon5{
@@ -76,7 +76,7 @@ cite{
     top: 5%;  
     right:15%;
     transform: rotate(20deg);
-    opacity: 0.5
+    opacity: 0.3
 }
 
 #corazon6{
@@ -86,8 +86,7 @@ cite{
     top: 40%;  
     right: 90%;
     transform: rotate(20deg);
-    opacity:0.5
-}
+    opacity:0.53}
 
 #corazon7{
     position: absolute;
@@ -96,7 +95,7 @@ cite{
     top: 25%;    
     right: 5%;
     transform: rotate(-20deg);
-    opacity: 0.5
+    opacity: 0.3
 }
 
 #corazon8{
@@ -106,7 +105,7 @@ cite{
     top: 55%;    
     right: 90%;
     transform: rotate(20deg);
-    opacity: 0.5
+    opacity: 0.3
 }
 
 #corazon9{
@@ -116,7 +115,7 @@ cite{
     top: 10%;  
     right: 0%;
     transform: rotate(-8deg);
-    opacity: 0.5
+    opacity: 0.3
 }
 
 #corazon10{
@@ -126,7 +125,7 @@ cite{
     top: 75%;    
     right: 0%;
     transform: rotate(-15deg);
-    opacity: 0.5
+    opacity: 0.3
 }
 
 #corazon11{
@@ -136,7 +135,7 @@ cite{
     top: 90%;  
     right: 7%;
     transform: rotate(20deg);
-    opacity: 0.5
+    opacity: 0.3
 }
 
 #corazon12{
@@ -146,8 +145,7 @@ cite{
     top: 65%;  
     right: 5%;
     transform: rotate(20deg);
-    opacity:0.5
-}
+    opacity:0.53}
 
 @media screen and (min-width: 768px){
     pre{
