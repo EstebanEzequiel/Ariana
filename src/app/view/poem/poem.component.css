@@ -12,8 +12,8 @@
 
 pre{
     /* background-color: rgba(245, 245, 245, 0.8); */
-    color: black;
-    font: normal 23.5px 'Grenze Gotisch', cursive;
+    color: darkslategrey;
+    font: bold 1.4rem 'Grenze Gotisch', cursive;
 }
 
 h1{
@@ -21,11 +21,11 @@ h1{
 }
 
 cite{
-    color: black !important;
+    color: darkslategrey !important;
 }
 
 #parte2{
-    padding-top: 3.5rem;
+    padding-top: 6rem;
     margin: 0;
 }
 

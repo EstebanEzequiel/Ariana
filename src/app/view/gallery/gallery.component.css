@@ -2,14 +2,22 @@
     max-width: 100%;
     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.404), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
     border: 8px solid white;
-    transform: rotate(-5deg);   
+    transform: rotate(-7deg);   
+    /* margin-top: -5rem; */
+}
+
+h1{
+    font: normal 'Grenze Gotisch', cursive;
+    text-align: center;
+    text-transform: capitalize;
+    color: darkslategrey;
 }
 
 .etiqueta{
     text-transform: capitalize;
     background: yellow;
     color: yellow;
-    padding: 0.2em 1.5em 0.2em 0.9em;
+    padding: 0.5em 1.8em 0.5em 1.8em;
     margin-left: 10px;
     position: absolute;
     top: 100%;
@@ -22,21 +30,13 @@
     text-transform: capitalize;
     background: yellow;
     color: yellow;
-    padding: 0.2em 1.5em 0.2em 0.9em;
+    padding: 0.5em 1.8em 0.5em 1.8em;
     margin-left: 10px;
     position: absolute;
-    top: 5%;
+    top: 1%;
     right: 1%;
     z-index: 1;
     transform: rotate(25deg);
-}
-
-.centrar{
-    text-align: center;
-}
-
-audio source {
-    filter: grayscale(100%) !important;
 }
 
 .animado{
