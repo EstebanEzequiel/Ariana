@@ -1,7 +1,7 @@
 .img-fluid1 {
     max-width: 100%;
     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.404), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
-    /* border: 8px solid white; */
+    border: 8px solid white;
     transform: rotate(-7deg);   
     /* margin-top: -5rem; */
 }
@@ -15,8 +15,8 @@ h1{
 
 .etiqueta{
     text-transform: capitalize;
-    background: yellow;
-    color: yellow;
+    background: tomato;
+    color: tomato;
     padding: 0.5em 1.8em 0.5em 1.8em;
     margin-left: 10px;
     position: absolute;
@@ -28,12 +28,12 @@ h1{
 
 .etiqueta1{
     text-transform: capitalize;
-    background: yellow;
-    color: yellow;
+    background: tomato;
+    color: tomato;
     padding: 0.5em 1.8em 0.5em 1.8em;
     margin-left: 10px;
     position: absolute;
-    top: 1%;
+    top: 12%;
     right: 1%;
     z-index: 1;
     transform: rotate(25deg);
